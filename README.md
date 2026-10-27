@@ -69,10 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Bestias del Horizonte (juego 3D)
+## Aventura Horizonte (fan game de Pokémon en 3D)
 
-Juego 3D de criaturas en un mundo infinito generado proceduralmente, en `public/bestias/index.html` (Three.js, sin dependencias extra).
+Juego 3D no oficial de Pokémon en un mundo infinito, en `public/bestias/` (Three.js r150 incluido en la carpeta, sin dependencias de npm).
 
-- Con `npm run dev`, ábrelo en `http://localhost:3000/bestias/index.html`, o abre el archivo directamente en el navegador.
-- Explora, recoge objetos (bayas, pociones, orbes, cristales), combate por turnos con ventajas de tipo, captura criaturas y decide si evolucionan (aceptar, posponer o bloquear).
-- La partida se guarda automáticamente en el navegador.
+- Con `npm run dev`, ábrelo en `http://localhost:3000/bestias/index.html`. Añade `?calidad=baja` para el modo ligero.
+- 34 Pokémon (Bulbasaur, Charmander, Squirtle, Pikachu, Eevee y sus evoluciones, Lapras, Gyarados…) con tipos, estadísticas y tabla de efectividad de los juegos. Los modelos 3D se generan por código.
+- Física realista: gravedad, salto, inercia, pendientes, resistencia al correr y agua por profundidad. No se puede caminar por agua profunda: hay que surfear sobre Blastoise, Lapras o Gyarados (tecla R).
+- Captura con Poké Ball, Super Ball y Ultra Ball, evolución por nivel o con piedras (siempre decides tú), Centros Pokémon, Pokédex y guardado automático.
+
+Código: `js/data.js` (datos y reglas), `js/models.js` (modelos 3D), `js/world.js` (terreno, agua, cielo, vegetación) y `js/game.js` (física, combate, interfaz).
+
+Pokémon es una marca de Nintendo, Game Freak y The Pokémon Company. Proyecto de fans sin ánimo de lucro.
