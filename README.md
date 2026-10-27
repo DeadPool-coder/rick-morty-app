@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Bestias del Horizonte (juego 3D)
+
+Juego 3D de criaturas en un mundo infinito generado proceduralmente, en `public/bestias/index.html` (Three.js, sin dependencias extra).
+
+- Con `npm run dev`, ábrelo en `http://localhost:3000/bestias/index.html`, o abre el archivo directamente en el navegador.
+- Explora, recoge objetos (bayas, pociones, orbes, cristales), combate por turnos con ventajas de tipo, captura criaturas y decide si evolucionan (aceptar, posponer o bloquear).
+- La partida se guarda automáticamente en el navegador.
